@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+}
+.navbar{
+    background-color: white;
+    /* margin-top: -16px; */
+    display: flex;
+    height: 50px;
+}
+.logo p{
+    margin-left: 40px;
+    font-size: 30px;
+    color: red;
+    margin-top: 7px;
+}
+.nav-list ul li{
+    display: inline;
+    font-weight: bold;
+}
+.nav-list ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    margin-left: 40px;
+}
+.nav-list{
+    margin-left: 650px;
+}
+.nav-list ul li a:hover{
+    color: red;
+}
+.nav-list ul li a:active{
+    color: red;
+}
+
+
+.new-product{
+    display: flex;
+    background-color: white;
+    
+}
+.pDetails{
+    width: 600px;
+    padding: 20px;
+    margin-left: 100px;
+}
+.new-prod-img{
+    /* padding: 50px; */
+    margin-top: 80px;
+}
+.n-pro{
+    font-size: 25px;
+    color: gray;
+}
+.n-pro-name{
+    font-weight: bold;
+    font-size: 30px;
+    color: magenta;
+    font-style: italic;
+}
+.pDiscription{
+    font-size: 18px;
+    line-height: 23px;
+}
+.footer{
+    margin-bottom: -20px;
+    background-color: yellowgreen;
+}
+.footer ul{
+    padding: 20px;
+}
+.footer ul li{
+    display: inline;
+    margin-left: 170px;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.footer ul li a:hover{
+    color: red;
+}
